@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "notion-for-each-row": "1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
