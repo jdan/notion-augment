@@ -39,4 +39,4 @@ augment(
 );
 ```
 
-(gif)
+![augment](https://user-images.githubusercontent.com/287268/132866840-b65e67b8-e844-4acd-8558-0547b2e4eef2.gif)
