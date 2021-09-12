@@ -1,8 +1,31 @@
 {
+  "name": "notion-augment",
   "dependencies": {
-    "notion-for-each-row": "1.0.0"
+    "notion-for-each-row": "1.0.1"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
-  }
+  },
+  "description": "Augment your [Notion](https://notion.so) databases on command, à la [Man-Computer Symbiosis](https://en.wikipedia.org/wiki/Man-Computer_Symbiosis).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdan/notion-augment.git"
+  },
+  "keywords": [
+    "notion"
+  ],
+  "author": "Jordan Scales <scalesjordan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdan/notion-augment/issues"
+  },
+  "homepage": "https://github.com/jdan/notion-augment#readme"
 }

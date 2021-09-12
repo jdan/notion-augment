@@ -1,4 +1,4 @@
-const augment = require("../");
+const augment = require("..");
 
 // dotenv reads `.env`, copy `.env.example` and populate with your details
 require("dotenv").config();
@@ -16,6 +16,7 @@ augment(
   (row) => {
     const seed = concatenateTitle(row.properties.Seed.title);
     const url = `https://hashpng.jordanscales.com/circles/685/360/${seed}.png`;
+    // https://developers.notion.com/reference/patch-page
     return {
       Art: {
         files: [
